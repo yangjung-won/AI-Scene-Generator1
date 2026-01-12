@@ -1,0 +1,39 @@
+# Cursor-specific files
+.cursor/
+.cursorindexingignore
+.specstory/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Log files
+*.log
+
+# Model files (if needed)
+models/*.pkl
+models/*.joblib
+
+# Blender backup files
+*.blend1
+*.blend2
+
+# Node modules (if any)
+node_modules/

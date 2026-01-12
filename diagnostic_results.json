@@ -1,0 +1,140 @@
+{
+  "A dense forest scene with tall trees": {
+    "nlp_objects": [
+      "tree",
+      "grass",
+      "flower"
+    ],
+    "nlp_scene_type": "forest",
+    "ltc_complexity": 0.5019713614079223,
+    "ltc_naturalness": 0.7025340567357247,
+    "object_params": {
+      "tree": {
+        "growth_rate": 1.241,
+        "branching_factor": 0.53,
+        "leaf_density": 0.867
+      },
+      "grass": {
+        "height_variation": 0.681,
+        "density_factor": 0.797,
+        "wind_response": 0.336
+      },
+      "flower": {
+        "bloom_rate": 0.898,
+        "color_variation": 0.423,
+        "petal_count": 7.544
+      }
+    },
+    "object_counts": {
+      "tree": 60,
+      "grass": 200,
+      "flower": 34
+    },
+    "selected_models": {
+      "trees": 60,
+      "flowers": 34,
+      "stones": 0,
+      "grasses": 200
+    }
+  },
+  "A spring garden with pink cherry trees and purple flowers": {
+    "nlp_objects": [
+      "tree",
+      "water",
+      "flower"
+    ],
+    "nlp_scene_type": "garden",
+    "ltc_complexity": 0.5019713614079223,
+    "ltc_naturalness": 0.7025340567357247,
+    "object_params": {
+      "tree": {
+        "growth_rate": 1.256,
+        "branching_factor": 0.675,
+        "leaf_density": 0.996
+      },
+      "water": {
+        "flow_rate": 0.331,
+        "turbulence": 0.157,
+        "depth_variation": 0.851
+      },
+      "flower": {
+        "bloom_rate": 0.809,
+        "color_variation": 0.491,
+        "petal_count": 6.028
+      }
+    },
+    "object_counts": {
+      "tree": 60,
+      "water": 3,
+      "flower": 33
+    },
+    "selected_models": {
+      "trees": 60,
+      "flowers": 33,
+      "stones": 0,
+      "grasses": 0
+    }
+  },
+  "A winter landscape with snow-covered trees": {
+    "nlp_objects": [
+      "tree",
+      "grass",
+      "flower"
+    ],
+    "nlp_scene_type": "winter",
+    "ltc_complexity": 0.5019713614079223,
+    "ltc_naturalness": 0.7025340567357247,
+    "object_params": {
+      "tree": {
+        "growth_rate": 0.756,
+        "branching_factor": 0.544,
+        "leaf_density": 0.731
+      },
+      "grass": {
+        "height_variation": 0.812,
+        "density_factor": 0.98,
+        "wind_response": 0.33
+      },
+      "flower": {
+        "bloom_rate": 0.881,
+        "color_variation": 0.545,
+        "petal_count": 4.918
+      }
+    },
+    "object_counts": {
+      "tree": 57,
+      "grass": 200,
+      "flower": 34
+    },
+    "selected_models": {
+      "trees": 57,
+      "flowers": 34,
+      "stones": 0,
+      "grasses": 200
+    }
+  },
+  "A desert scene with sparse vegetation and rocks": {
+    "nlp_objects": [
+      "stone"
+    ],
+    "nlp_scene_type": "desert",
+    "ltc_complexity": 0.5019713614079223,
+    "ltc_naturalness": 0.7025340567357247,
+    "object_params": {
+      "stone": {
+        "erosion_factor": 0.318,
+        "texture_variation": 0.472,
+        "size_distribution": 0.564
+      }
+    },
+    "object_counts": {
+      "stone": 16
+    },
+    "selected_models": {
+      "trees": 0,
+      "flowers": 0,
+      "stones": 16,
+      "grasses": 0
+    }
+  }
+}
